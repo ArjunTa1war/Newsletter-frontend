@@ -5,7 +5,9 @@ export default function CardItem(props) {
   const [showModal, setShowModal] = useState(false);
   const [semail,ssetmail] = useState("");
   const [uemail,usetmail] = useState("");
-  const host = "https://newsletter-backend-eta.vercel.app"
+  // const host = "https://newsletter-backend-eta.vercel.app"
+  const host = "http://localhost:4000"
+  // const host = "https://suprsend-newsletter-backend.onrender.com"
   const handleModalOpen = () => {
     setShowModal(true);
   };
